@@ -675,12 +675,17 @@ body.offcanvas {
     color: #666666; }
 .project-desc .summary {
   margin-bottom: 15px; }
-.project-desc .summary p{
-  color: #888;
-  font-weight: 200; }
-.project-desc .summary a{
-  font-weight:400;
+.project-desc .summary h4{
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
 }
+.project-desc .summary p{
+    color: #888;
+    padding-left: 0.9em;
+    margin-bottom: 0.4em;
+    font-weight: 200; }
 .project-desc p {
   font-size: 12px;
   color: #888;
@@ -704,6 +709,12 @@ body.offcanvas {
 
 #get-in-touch {
   padding: 2em; }
+#get-in-touch h2{
+    letter-spacing: .2em;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
   #get-in-touch .btn-learn {
     padding: 15px 30px !important;
     font-size: 13px;
@@ -1222,4 +1233,10 @@ body.offcanvas {
 }
 .colomn2 ol,ul {
     padding-left: 0;
+}
+.nextWork{
+    background: #000;
+    color: #fff;
+    width:auto;
+    margin-right:300px;
 }

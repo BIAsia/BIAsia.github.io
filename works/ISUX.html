@@ -94,10 +94,10 @@
 									<span><b>TIME</b>2019.07-2019.08</span>
 								</span>
 
-								<h3>项目概述 <i>Summary</i></h3>
+								<h3 id="part1.1">项目概述 <i>Summary</i></h3>
 								<p>活水计划即腾讯内部的人才流动市场机制，既帮助员工在公司内自由的寻找发展机会，也快速支持公司重点产品和业务的人才需求，现已成为腾讯的一个重要文化符号。</p>
 								<p>这个项目基于PCG社交平台线拟新推出的线内快速活水规则，致力于为线内活水打造更通畅的体验，帮助员工在线内找到适合的岗位，同时也让线内重点产品和业务更好地为员工所了解。</p>
-								<h3>了解需求 <i>Requirement</i></h3>
+								<h3 id="part1.2">了解需求 <i>Requirement</i></h3>
 								<p>和 HR 进行初步需求沟通后，大致了解以下内容：</p>
 								<ol>
 									<li>我们要做 PCG 社平线内的活水平台，用户为活水员工，管理方是各招人 Leader 与 HR</li>
@@ -109,7 +109,7 @@
 								<img class="img-responsive" src="../images/ISUX_2.png" alt="HTML5 Bootstrap Template by colorlib.com">
 								<p>整理后发现，活水原因中业务相关的比例最大，也有一些是团队氛围相关；同时也有一些因个人成长方向的改变，而转岗到相近但侧重点不同的岗位的情况。</p>
 								<p>另一方面，我们也通过HR了解到招人方的想法，总结大致为：提升宣传效果，岗位说明更贴切，以及尽量方便他们填信息。</p>
-								<h3>设计活水路径 <i>User Flow</i></h3>
+								<h3 id="part1.3">设计活水路径 <i>User Flow</i></h3>
 								<p>平台的主要路径即员工寻岗，首先了解正在运作的公司级活水系统，试用并分析其寻岗路径：</p>
 								<img class="img-responsive" src="../images/ISUX_3.png" alt="公司级活水系统寻岗路径">
 								<p>可以了解到公司级主要路径有两个，重点在于“在大量岗位中定位到客观条件符合的岗”，属于有向浏览/已知项浏览。但因为岗位众多，筛选条件丰富，员工真正在意的信息却体现不足——业务和部门均没有介绍，员工能直观了解到的内容和外部招聘的类似。</p>
@@ -125,11 +125,11 @@
 								<img class="img-responsive" src="../images/ISUX_5.png" alt="路径尝试与沟通">
 								<p>最后确定的活水寻岗路径如下图：</p>
 								<img class="img-responsive" src="../images/ISUX_6.png" alt="线内活水路径">
-								<h3>信息架构 <i>Structure</i></h3>
+								<h3 id="part1.4">信息架构 <i>Structure</i></h3>
 								<p>我们要展示较公司级活水系统更详细的信息，但也要考虑信息的收集难易与质量。我在这里的做法是，先只考虑"有用"的信息，从业务、团队、岗位三个维度，客观描述与主观感受两种表现方式进行头脑风暴，列出原始信息池。再对池中每项考虑客观因素，决定是否收集/显示该信息。</p>
 								<p>平台也需要支持这些信息的在线管理和收集，我们把这部分内容合并到"活水管理"中。也就是管理后台，让具有岗位发布权的 Leader 能够管理自己参与的业务和其下岗位。</p>
 								<img class="img-responsive" src="../images/ISUX_7.png" alt="信息架构图">
-								<h3>设计决策 <i>Design Decisions</i></h3>
+								<h3 id="part1.5">设计决策 <i>Design Decisions</i></h3>
 								<p>确定路径与架构的过程中已经涉及到一部分页面布局的设计，以下展示几个设计思考过程：</p>
 								<h4>首页的业务入口：数量 OR 信息量？</h4>
 								<p>决定使用哪种形式其实是取决于我们的策略——是希望在首页就呈现出足够具有吸引力的信息，吸引点击进入；还是希望提供数量较多的平等入口？</p>
@@ -144,9 +144,9 @@
 								<img class="img-responsive" src="../images/ISUX_9.png" alt="业务切换方案比较">
 								<p>使用适合于多数情况的方案作为基本布局，对于特殊情况，再考虑其它方式来满足需求:</p>
 								<img class="img-responsive" src="../images/ISUX_28.png" alt="业务切换不同情况">
-								<h3>视觉规范 <i>Visual Guideline</i></h3>
+								<h3 id="part1.6">视觉规范 <i>Visual Guideline</i></h3>
 								<img class="img-responsive" src="../images/ISUX_29.png" alt="视觉规范">
-								<h3>结果与思考 <i>Result</i></h3>
+								<h3 id="part1.7">结果与思考 <i>Result</i></h3>
 								<p>这个项目目前已经开发完成，正在录入信息预备投入使用。</p>
 								<p>作为刚来没多久的实习生，能够负责一个从0到1完整系统的所有设计工作，对我来说是机会也是挑战。虽然这个平台结构并不复杂，规模也不大，但在设计过程中，我理解了些也许只能在整体设计的项目中体会出的“经验”。</p>
 								<h4>做设计前的信息收集</h4>
@@ -172,7 +172,7 @@
 								</span>
 								<h3>概述 <i>Summary</i></h3>
 								<p>这部分介绍实习时做的一些QQ相关的业务需求；因个人能力发展方向偏产品体验设计师，到目前共支持了10+交互与视觉需求；以下选取几个具代表性的简单描述。</p>
-								<h3>QQ会员新特权 <i>Interaction</i></h3>
+								<h3 id="part2.1">QQ会员新特权 <i>Interaction</i></h3>
 								<p>会员体系下准备新增针对QQ扩列功能的特权，开启时资料卡在扩列广场的曝光率提高。简单沟通后了解到这个特权除了基本的入口和介绍页设计，还有开启状态与使用次数的区分。</p>
 								<img class="img-responsive" src="../images/ISUX_18.png" alt="会员特权拆分">
 								<p>考虑新特权的两种用户：</p>
@@ -185,7 +185,7 @@
 								<p>分析用户使用特权的过程，提醒主要集中于"有次数"->"次数用完"->"续费获取"的循环，同时也根据不同阶段对特权页做异化。</p>
 								<img class="img-responsive" src="../images/ISUX_19.png" alt="不同阶段用户触达">
 								<p>最后产出交互稿。</p>
-								<h3>会员邮件模版 <i>Interaction & Visual</i></h3>
+								<h3 id="part2.2">会员邮件模版 <i>Interaction & Visual</i></h3>
 								<p>需要对现有开通、催费、升级、生日关怀及支付挽留类邮件样式做调整，提升邮件转化率。在需求沟通，了解现网问题后，首先思考邮件的目标及如何提高转化率：</p>
 								<img class="img-responsive" src="../images/ISUX_30.png" alt="邮件模版目标">
 								<p>了解会员在开通/催费/升级/支付挽留时的策略，与产品讨论决定邮件展示相关信息的方式：</p>
@@ -198,7 +198,7 @@
 									<p>邮件不可复用官网的代码，只能用图片+文字+热区的形式；浏览方式上也只能竖滑。因此在官网基础上减少跳转入口，调整内容的宽度；CTA也确保在首屏内展示。</p>
 								</ol>
 
-								<h3>支付相关需求 <i>Interaction & Visual</i></h3>
+								<h3 id="part2.3">支付相关需求 <i>Interaction & Visual</i></h3>
 								<p>增值支付相关的需求包括：</p>
 								<ol>
 									<li>对PC端支付浮层进行改版优化（交互&视觉）</li>
@@ -209,35 +209,40 @@
 								<img class="img-responsive" width="100%" src="../images/ISUX_21.png" alt="PC支付浮层组件1">
 								<img class="img-responsive" src="../images/ISUX_22.png" alt="PC支付浮层组件2">
 							</div>
-							<div class="project-detail" id="part3">
-								<span class="project-title">
-								<h2>情侣空间第一次探索  <i>PART 3</i></h2>
-									<b>ROLE</b><span>交互设计</span>
-									<span><b>TIME</b>2019.06-present</span>
-								</span>
-								<h3>概述 <i>Summary</i></h3>
-								<p>这个探索是与隔壁组的视觉实习生，一同分析“情侣空间中第一次”模块问题，思考情侣用户点亮第一次的心理，并重新设计该模块。</p>
-							</div>
 						</div>
+
 						<div class="col-md-4 sticky-parent">
 							<div id="sticky_item">
 								<div class="project-desc">
 									<div class="summary">
 										<h2>实习 | 腾讯 ISUX</h2>
 										<span>UX design, 2019.06-present</span>
-										<p><a href="#part1">#1 社平线新活水平台</a></p>
-										<p>基于PCG社交平台线拟新推出的线内快速活水规则，致力于为线内活水打造更通畅的体验，帮助员工在线内找到适合的岗位，同时也让线内重点产品和业务更好地为员工所了解。</p>
-										<p><a href="#part2">#2 QQ会员相关业务</a></p>
-										<p>介绍实习时做的一些QQ相关的业务需求；因个人能力发展方向偏产品体验设计师，到目前共支持了10+交互与视觉需求；以下选取几个具代表性的简单描述。</p>
-										<p><a href="#part3">#3 情侣空间第一次探索</a></p>
-										<p>与隔壁组的视觉实习生，一同分析“情侣空间中第一次”模块问题，思考情侣用户点亮第一次的心理，并重新设计该模块。</p>
-									</div>
+                                        <h4><a href="#part1">#1 社平线新活水平台</a></h4>
+                                        <p><a href="#part1.2">- 了解需求</a></p>
+                                        <p><a href="#part1.3">- 设计活水路径</a></p>
+                                        <p><a href="#part1.4">- 信息架构</a></p>
+                                        <p><a href="#part1.5">- 设计决策</a></p>
+                                        <p><a href="#part1.6">- 视觉规范</a></p>
+                                        <p><a href="#part1.7">- 结果与思考</a></p>
+
+                                        <h4><a href="#part2">#2 QQ会员相关业务</a></h4>
+                                        <p><a href="#part2.1">- QQ会员新特权</a></p>
+                                        <p><a href="#part2.2">- 会员邮件模版</a></p>
+                                        <p><a href="#part2.3">- 支付相关需求</a></p>
+
+                                        </div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+            <div class="project-detail">
+                <i>NEXT WORK</i>
+                <h2><a href="Mobiuspace.html">2018实习 | 大宇无限</a></h2>
+            </div>
+
+
 		</div>
 	</div>
 
