@@ -278,7 +278,7 @@ figure {
           #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
-            border: 2px solid #F75940; }
+            border: 2px solid #fff; }
     #colorlib-hero .flexslider .flex-direction-nav {
       display: none; }
     #colorlib-hero .flexslider .slider-text {
@@ -675,6 +675,12 @@ body.offcanvas {
     color: #666666; }
 .project-desc .summary {
   margin-bottom: 15px; }
+.project-desc .summary p{
+  color: #888;
+  font-weight: 200; }
+.project-desc .summary a{
+  font-weight:400;
+}
 .project-desc p {
   font-size: 12px;
   color: #888;
