@@ -603,23 +603,39 @@ body.offcanvas {
           font-size: 16px;
           color: #cccccc; }
     .project .desc h3 {
-      font-size: 16px;
-      font-weight: 500;
+      font-size: 2.4em;
+      text-align: center;
+      font-weight: 400;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
-      letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
       -o-transition: transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-      -webkit-transform: translate3d(0, -15px, 0);
-      transform: translate3d(0, -15px, 0);
+      -webkit-transform: translate3d(0, 15px, 0);
+      transform: translate3d(0, 15px, 0);
       margin-bottom: 15px; }
       .project .desc h3 a {
         color: #fff; }
+    .project .desc h4 {
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-top:8em;
+      margin-bottom: 1.5em;
+      text-align: center;
+      color: #fff;
+      font-weight: 200;
+      font-size: 1em;
+      -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+      -o-transition: transform 0.3s, opacity 0.3s;
+      -webkit-transform: translate3d(0, 15px, 0);
+      transform: translate3d(0, 15px, 0); }
     .project .desc span {
       display: block;
+      text-align: center;
       color: #999999;
       font-size: 13px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -631,7 +647,7 @@ body.offcanvas {
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
-        color: #000; }
+        color: #fff; }
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
