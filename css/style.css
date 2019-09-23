@@ -441,6 +441,10 @@ body.offcanvas {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500; }
+.about-desc p {
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 200; }
 
 .fancy-collapse-panel .panel-default > .panel-heading {
   padding: 0; }
@@ -1164,7 +1168,7 @@ body.offcanvas {
 .project-detail {
   margin-bottom: 100px;}
   .project-detail p{
-    font-weight:300;
+    font-weight:200;
   }
   .project-detail ul,ol{
     letter-spacing: .1em;
@@ -1176,6 +1180,16 @@ body.offcanvas {
     counter-increment: number;
     list-style: none;
   }
+.project-detail ul li{
+    list-style: none;
+}
+.project-detail ul li::before{
+    content:"+";
+    margin-right: .5em;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+}
   .project-detail ol li::before{
     content: counter(number)" ";
     margin-right: .5em;
@@ -1207,7 +1221,7 @@ body.offcanvas {
   }
   .project-detail i{
     letter-spacing: .2em;
-    color: #aaa;
+    color: #888;
     font-style: normal;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -1256,3 +1270,25 @@ body.offcanvas {
     width:auto;
     margin-right:300px;
 }
+#date p{
+    text-align: right;
+    font-weight: 600;
+    color:#000;
+    margin: 0;
+    font-size:0.8em;
+    padding-right:1.5em;
+    padding-top:0.2em;
+    padding-bottom:4.2em;
+    border-right: 1px solid #111;
+}
+#experience p{
+    font-weight: 200;
+    font-size:0.8em;
+    padding-bottom: 1em;
+}#experience p b{
+    font-size: 1.25em;
+ }
+#experience p i{
+    font-style: normal;
+    font-weight: 600;
+ }

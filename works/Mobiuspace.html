@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>BIAsia - Work</title>
+	<title>BIAsia-Work</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -54,7 +54,6 @@
 					<li><a href="../index.html">Home</a></li>
 					<li class="colorlib-active"><a href="../work.html">Work</a></li>
 					<li><a href="../about.html">About</a></li>
-					<li><a href="../contact.html">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -94,19 +93,19 @@
 								</span>
 
 								<h3>项目概述 <i>Summary</i></h3>
-								<p>Snaptube 是一个主打海外市场的安卓端移动视频 App，拥有千万级用户量。我作为实习生，参与其交互动效设计。</p>
+								<p>Snaptube 是一个主打海外市场的<b>安卓端视频 App</b>，拥有千万级用户量。我作为实习生，参与其交互动效设计。</p>
 								<h3 id="part1.1">前期调查 <i>Research</i></h3>
-								<p>设计团队计划对 Snaptube 进行交互动效设计，我作为设计实习生，在 mentor 指导下，以 Material Design 为参考对图标、组件与页面的交互动效进行设计。</p>
+								<p>设计团队计划对 Snaptube 进行交互动效设计，我作为设计实习生，在 mentor 指导下，以 Material Design 为参考对<b>图标、组件与页面的交互动效</b>进行设计。</p>
 								<img class="img-responsive" src="../images/MS_1.png" alt="前期调查">
 								<p>初来乍到再加上缺少相关经验，我在准备阶段的调查工作分为三步：熟悉并发现现有问题、比较分析竞品方案、查阅平台规范与知名设计系统。</p>
 								<h4>一、发现现有问题</h4>
-								<p>首先我尝试熟悉 Snaptube 的界面组件与交互，测试其所有功能，列出信息架构图，同时记录下出现体验问题的部分。</p>
+								<p>首先我尝试<b>熟悉 Snaptube 的界面组件与交互</b>，测试其所有功能，列出信息架构图，同时记录下出现体验问题的部分。</p>
 								<img class="img-responsive" src="../images/MS_2.png" alt="发现问题">
 								<h4>二、分析同类产品方案</h4>
-								<p>Snaptube 的主要功能是播放以及下载视频；因此我分析了其同类产品如 Youtube 和西瓜视频的一些方案，按功能分条记录成文档。
+								<p>Snaptube 的主要功能是<b>播放以及下载视频</b>；因此我分析了其同类产品如 Youtube 和西瓜视频的一些方案，按功能分条记录成文档。
 									做完这步后再次回顾之前记录的问题，尝试给出几种初步的方案备参考。</p>
 								<h4>三、参考设计系统</h4>
-								<p>因我主要负责组件部分的交互动效方案，为了使设计方案体系化，我阅读了国内外知名设计系统及其公开移动UI库，提取出各设计系统的组件库结构差异。</p>
+								<p>因我主要负责组件部分的交互动效方案，为了使设计方案体系化，我阅读了国内外知名<b>设计系统及其公开移动UI库</b>，提取出各设计系统的组件库结构差异。</p>
 								<div class="colomn3">
 									<b>Material Design UI</b>
 									<ol>
@@ -136,10 +135,10 @@
 								</div>
 								<img class="img-responsive" src="../images/MS_3.png" alt="设计系统1">
 								<h3 id="part1.2">交互原则 <i>Principle</i></h3>
-								<p>经过一系列的前期准备与分工，我主要负责组件部分的交互动效方案。为了使方案更具系统性与一致性，我在设计不同组件间交互时，主要遵循以下三个原则：</p>
+								<p>经过一系列的前期准备与分工，我主要负责<b>组件部分的交互动效方案</b>。为了使方案更具系统性与一致性，我在设计不同组件间交互时，主要遵循以下三个原则：</p>
 								<h4>一、功能逻辑通过层级反映</h4>
 
-								<p>考虑到 Snaptube 的层级并不深，使用相对层级更利于应用原则；我参考 MD 的层级判断法，给出 Snaptube 的层级规则。</p>
+								<p>考虑到 Snaptube 的层级并不深，使用<b>相对层级</b>更利于应用原则；我参考 MD 的层级判断法，给出 Snaptube 的层级规则。</p>
 								<div class="colomn3">
 									<b style="letter-spacing: .2em">导航级别</b>
 									<p>导航层级高于其可控制内容和低级导航<br><i>NavBar>Tab>…</i></p>
@@ -153,17 +152,17 @@
 									<p>更需要即时操作的，层级更高<br><i>dialog, sheets,…</i></p>
 								</div>
 								<img class="img-responsive" src="../images/MS_4.png" alt="功能层级1">
+								<p>以首页为例，将页面上各个组件分级：</p>
 								<img class="img-responsive" src="../images/MS_5.png" alt="功能层级2">
 								<h4>二、相对具体的操作反馈</h4>
 								<p>在 Snaptube 中，每个操作都应该获得包含特定信息的回馈；操作反馈不限于简单响应，同时应当简单指示后续变化：
 									<ul>
-										<li>变化在组件内，指示点击位置</li>
-										<li>变化在一定距离的组件外，指示响应方向</li>
-										<li>组件本身进行变化，动效以操作点为中心，显示变化过程</li>
+										<li>变化在组件内，指示<b>点击位置</b></li>
+										<li>变化在一定距离的组件外，指示<b>响应方向</b></li>
+										<li>组件本身进行变化，动效以操作点为中心，显示<b>变化过程</b></li>
 										<i>Fluent design 也涉及到反馈的方向性： 去向何方/来自何处</i>
 									</ul>
 								</p>
-								<img class="img-responsive" src="../images/MS_6.png" alt="操作反馈">
 								<h4>三、突出用户预期内容</h4>
 								<p>Snaptube 使用两种方式来突出用户操作后预期获得的内容：</p>
 								<div class="colomn2">
@@ -176,29 +175,38 @@
 								</div>
 								<img class="img-responsive" src="../images/MS_7.png" alt="用户预期">
 								<h3 id="part1.3">组件动效 <i>Motion</i></h3>
-								<p>在这一部分，我对 Snaptube 中每个组件交互进行动效设计，并产出交互动效文档。<br>为使较复杂的动效原型易于理解，我将单个组件级动效按其涉及范围分四块：</p>
-								<ol>
-									<li>最小单位的点击反馈</li>
+								<p>在这一部分，我对 Snaptube 中每个组件交互进行动效设计，并产出交互动效<b>原型和文档</b>。<br>为使较复杂的动效原型易于理解，我将单个组件级动效按其涉及范围分四块：</p>
+								<img class="img-responsive" src="../images/MS_8.png" alt="组件动效" style="padding-bottom: 2em">
+								<p>如上图，各部分分别是：</p>
+								<ul>
+									<b><li>最小单位的点击反馈</li>
 									<li>组件内的内容变化</li>
 									<li>其它组件的变化</li>
-									<li>背景变化</li>
-								</ol>
-								<img class="img-responsive" src="../images/MS_8.png" alt="组件动效">
+									<li>背景变化</li></b>
+								</ul>
+								<p>以点击首页视频卡片为例，拆分此交互动效：</p>
+
 								<img class="img-responsive" src="../images/MS_9.png" alt="组件动效示例">
 								<h3 id="part1.4">组件库 <i>UI LIBRARY</i></h3>
-								<p>在产出完整的交互动效方案文档后，我们决定将Snaptube 的现有UI资源整理成组件库，以便推进新交互方案的实现。<br>我们从易用性、复用性、可定制性与详细度四维度，分析组件库的使用人群的需求度，权衡下给出 Snaptube 组件库必须满足：</p>
+								<p>在产出完整的交互动效方案文档后，我们决定将Snaptube 的现有UI资源整理成组件库，以便推进新交互方案的实现。<br>我们从<b>易用性、复用性、可定制性与详细度</b>四维度，分析组件库的使用人群的需求度：</p>
 								<img class="img-responsive" src="../images/MS_10.png" alt="使用者&需求">
-								<ol>
-									<li>按功能对组件进行分类</li>
+								<p>权衡各类人群需求后，我们认为 Snaptube 组件库必须满足</p>
+								<ul>
+									<li><b>按功能对组件进行分类</b></li>
 									<i>易于不熟悉情况下找寻</i>
-									<li>元素分离出组件</li>
+									<br><br>
+									<li><b>元素分离出组件</b></li>
 									<i>降低组件层级与复杂度</i>
-									<li>包含所有使用中组件的详细状态样式</li>
+									<br><br>
+									<li><b>包含所有使用中组件的所有状态样式</b></li>
 									<i>方便研发获取信息</i>
-									<li>借助 sketch 的 symbol、override 与 resizing 搭建复用性与可定制性高的UI kit</li>
+									<br><br>
+									<li><b>借助 sketch 的 symbol、override 与 resizing 搭建复用性与可定制性高的UI kit</b></li>
 									<i>易于设计师定制、删改部件</i>
-								</ol>
+								</ul>
+								<p>确定方向后，我们结合之前总结的各知名公开的UI kit特征，协作搭建Snaptube UI kit的<b>整体框架</b>：</p>
 								<img class="img-responsive" src="../images/MS_11.png" alt="组件库结构">
+								<p>最后在 sketch 中搭建完成，并利用 sketch library 进行同步。</p>
 								<img class="img-responsive" src="../images/MS_12.png" alt="组件库">
 								<h3 id="part1.5">体会与思考 <i>REVISIONS</i></h3>
 								<p>Snaptube 是我参与的第一个在较成熟商业模式下运作的、拥有大量用户的产品。虽然参与时间仅是短短两个月，但我依旧做了许多从未做过的工作、想了许多从未想过的问题、收获到许多在校内收获不到的知识和经验。</p>
